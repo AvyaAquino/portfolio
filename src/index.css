@@ -1,0 +1,48 @@
+:root {
+  --bg-primary: #121214;   
+  --bg-secondary: #202024;  
+  --text-primary: #E1E1E6;   
+  --text-secondary: #A8A8B3;   
+  
+  --purple-primary: #8257e5;
+  --purple-hover: #9466ff;   
+  --purple-border: #8257e5;   
+  
+  --font-main: 'Inter', system-ui, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-main);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-layout {
+  display: grid;
+  
+  grid-template-columns: 250px 1fr; 
+  min-height: 100vh;
+}
+
+@media (max-width: 900px) {
+  .app-layout {
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto 1fr;
+  }
+}
+
+.main-content {
+  padding: 2rem;
+  padding-left: 4rem; 
+}

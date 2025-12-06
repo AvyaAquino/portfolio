@@ -1,0 +1,22 @@
+.about-section {
+    padding: 3rem 0;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.greeting {
+    font-size: 2.5rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+}
+
+.description {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}
+
+strong {
+    color: var(--purple-primary);
+}
