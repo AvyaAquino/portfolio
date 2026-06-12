@@ -131,5 +131,37 @@ export const projects: Project[] = [
       "Trabalho em Equipe Colaborativo",
       "Comunicação Clara"
     ]
+  },
+  {
+    id: 5,
+    title: "PrecedentIA - Automação Jurídica (Xertica.Ai)",
+    description: "Plataforma inteligente para análise preditiva, edição assistida por IA e geração de peças processuais.",
+    summary: "Este projeto foi desenvolvido no quinto semestre da FATEC em parceria com a Xertica.Ai, focado na automação e otimização da rotina de juizes e advogados. O sistema realiza a análise preditiva de decisões judiciais através do cruzamento de formulários com textos extraídos de documentos anexados. Além disso, conta com geração automatizada de peças processuais, edição assistida de textos via Inteligência Artificial e exportação segura de documentos.",
+    image: "/precedentia.png",
+    technologies: ["FastAPI", "Python", "PostgreSQL", "SQLAlchemy", "Alembic", "Pytest", "Swagger"],
+    repoLink: "https://github.com/FR0M-ZER0/PrecedentIA",
+    personalContributions: [
+      "Liderança no desenho e reestruturação da modelagem do banco de dados relacional, implementando o isolamento seguro do histórico de buscas.",
+      "Implementação do ciclo de vida de armazenamento das petições geradas através de versionamento automatizado.",
+      "Desenvolvimento do ecossistema de segurança e gerenciamento de perfis com autenticação criptografada e validação temporal via dupla autenticação (2FA).",
+      "Criação de fluxo unificado para recepção simultânea de formulários e ficheiros anexados, integrando a aplicação com serviços internos de extração de texto (PDF).",
+      "Implementação de comunicação assíncrona direta com o microsserviço de IA para reescrita, edição interativa e refinamento incremental das petições.",
+      "Desenvolvimento do módulo de compilação e download seguro de documentos jurídicos estruturados diretamente no formato PDF.",
+      "Garantia de qualidade e blindagem da aplicação através de uma suíte completa de testes unitários automatizados."
+    ],
+    hardSkills: [
+      "Python & FastAPI (APIs de Alto Desempenho)",
+      "PostgreSQL & SQLAlchemy (Modelagem Relacional)",
+      "Alembic (Controle de Migrations)",
+      "Testes Unitários (Pytest)",
+      "Injeção de Dependências & Swagger (OpenAPI)"
+    ],
+    softSkills: [
+      "Liderança Técnica",
+      "Resolução de Problemas Complexos",
+      "Visão Sistêmica",
+      "Entrega de Resultados em Ciclos Ágeis",
+      "Comunicação Assíncrona"
+    ]
   }
 ];
